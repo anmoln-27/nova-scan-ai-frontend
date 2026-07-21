@@ -73,13 +73,17 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         content:
           "novaRAG X is an autonomous AI multi-agent platform that discovers, attacks, and reports API vulnerabilities with OWASP classification.",
       },
-      { property: "og:title", content: "novaRAG X" },
+      { property: "og:title", content: "novaRAG X — Autonomous AI API Penetration Testing" },
       {
         property: "og:description",
-        content: "Autonomous AI-Powered API Penetration Testing Platform.",
+        content: "novaRAG X is an autonomous AI multi-agent platform that discovers, attacks, and reports API vulnerabilities with OWASP classification.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "novaRAG X — Autonomous AI API Penetration Testing" },
+      { name: "twitter:description", content: "novaRAG X is an autonomous AI multi-agent platform that discovers, attacks, and reports API vulnerabilities with OWASP classification." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/3f0da7da-0819-446c-94ed-d197470bfcd2/id-preview-b66c6cf1--1315e508-d4d7-4513-b7b1-e7ec8bc08c8f.lovable.app-1784568165983.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/3f0da7da-0819-446c-94ed-d197470bfcd2/id-preview-b66c6cf1--1315e508-d4d7-4513-b7b1-e7ec8bc08c8f.lovable.app-1784568165983.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
