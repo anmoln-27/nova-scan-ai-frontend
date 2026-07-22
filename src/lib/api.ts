@@ -3,7 +3,7 @@ import axios from "axios";
 const baseURL =
   (typeof window !== "undefined" && window.localStorage?.getItem("nova.apiBase")) ||
   (typeof import.meta !== "undefined" && (import.meta as any).env?.VITE_API_BASE_URL) ||
-  "http://localhost:8000";
+  "https://novarag-don9.onrender.com/";
 
 export const api = axios.create({
   baseURL,

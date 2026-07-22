@@ -11,7 +11,7 @@ function SettingsPage() {
   const [apiUrl, setApiUrl] = useState("");
 
   useEffect(() => {
-    setApiUrl(localStorage.getItem("nova.apiBase") || (import.meta as any).env?.VITE_API_BASE_URL || "http://localhost:8000");
+    setApiUrl(localStorage.getItem("nova.apiBase") || (import.meta as any).env?.VITE_API_BASE_URL || "https://novarag-don9.onrender.com/");
   }, []);
 
   const save = () => {
