@@ -67,10 +67,15 @@ export interface AttackRound {
   timestamp?: string | number;
 }
 
+export interface StrategyItem {
+  endpoint: string;
+  priority: number;
+  attack_goal: string;
+  reason: string;
+}
+
 export interface Strategy {
-  goals?: string[];
-  prioritized_endpoints?: Array<{ endpoint: string; method: string; goal?: string; priority?: number }>;
-  [key: string]: unknown;
+  strategy: StrategyItem[];
 }
 
 // ===== API =====
